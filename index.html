@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NovaTech Web Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Internal CSS for highlighting -->
+    <style>
+        .highlight {
+            color: #0077cc;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>NovaTech Web Solutions</h1>
+    <p>Smart Web Solutions for Modern Businesses</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+<!-- HERO / INTRO -->
+<section id="hero" style="text-align: center; padding: 60px 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+    <h2 class="highlight">Build Your Digital Presence</h2>
+    <p>Professional websites, creative designs, and SEO-optimized solutions to grow your business online.</p>
+    <button onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">Contact Us</button>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        At <span class="highlight">NovaTech Web Solutions</span>, we specialize in creating modern, responsive, and user-friendly websites for businesses of all sizes.
+    </p>
+    <p>We help our clients:</p>
+    <ul>
+        <li>Enhance online visibility</li>
+        <li>Attract and engage customers</li>
+        <li>Grow their digital presence effectively</li>
+    </ul>
+</section>
+
+<!-- SERVICES SECTION -->
+<section id="services">
+    <h2>Our Services</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+        <div style="flex: 1 1 250px; background-color: #f4f6f8; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: center;">
+            <h3>Website Development</h3>
+            <p>We build fast, responsive, and scalable websites tailored to your business needs.</p>
+        </div>
+        <div style="flex: 1 1 250px; background-color: #f4f6f8; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: center;">
+            <h3>UI / UX Design</h3>
+            <p>Our designs focus on usability and visual appeal to create amazing user experiences.</p>
+        </div>
+        <div style="flex: 1 1 250px; background-color: #f4f6f8; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: center;">
+            <h3>SEO Optimization</h3>
+            <p>We optimize your website for search engines to increase visibility and traffic.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+        <label>Name:</label><br>
+        <input type="text" id="name" placeholder="Your Name"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" id="email" placeholder="you@example.com"><br><br>
+
+        <button type="submit">Send Message</button>
+    </form>
+    <p id="formMessage"></p>
+
+    <div style="margin-top: 20px;">
+        <p><strong>Email:</strong> contact@novatechsolutions.com</p>
+        <p><strong>Phone:</strong> +92 300 1234567</p>
+        <p><strong>Location:</strong> Karachi, Pakistan</p>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2025 NovaTech Web Solutions | Designed by Suniha Zaidi</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
