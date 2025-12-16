@@ -17,8 +17,9 @@ It integrates HTML5, CSS, JavaScript, and AI-generated content to demonstrate mo
 3. Open index.html in a browser or use Live Server extension
 
 ## Live Demo
-https://sunihaZaidi.github.io/iict-lab-14
+https://SunihaZaidi.github.io/iict-lab-14
 
 ## Author
 Suniha Zaidi
+
 
